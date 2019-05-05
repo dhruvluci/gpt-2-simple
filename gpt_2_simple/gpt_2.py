@@ -24,7 +24,7 @@ from gpt_2_simple.src.load_dataset import load_dataset, Sampler
 from gpt_2_simple.src.accumulate import AccumulatingOptimizer
 
 
-def download_gpt2(model_name='117M'):
+def download_gpt2(model_name='345M'):
     """Downloads the GPT-2 model into the current directory
     from Google Cloud Storage.
 
