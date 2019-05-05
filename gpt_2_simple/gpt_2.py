@@ -66,7 +66,7 @@ def start_tf_sess():
 def finetune(sess,
              dataset,
              steps=-1,
-             model_name='117M',
+             model_name='345M',
              combine=50000,
              batch_size=1,
              learning_rate=0.0001,
